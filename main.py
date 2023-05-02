@@ -1,13 +1,5 @@
-#1
-def decorate(func):
-    def wragger(*args, **wragger):
-        result + func(*args, **wragger)
-        return result + 10
-    return wragger
 
-@decorate
-def my_func(x):
-
+#3
 def cache(func):
     cache_dict = {}
     def wrapper(*args, **kwargs):
@@ -23,3 +15,4 @@ def cache(func):
 def my_func(x, y):
     return x * y
 print(my_func(3, 10))
+#4
